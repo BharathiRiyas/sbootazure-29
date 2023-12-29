@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://bharathi.database.windows.net:1433;database=bhar-sqlserver;user=admin123@bharathi;password=Tiger123;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      dialect: org.hibernate.dialect.SQLServer2012Dialect
+server:
+  port: 9191
